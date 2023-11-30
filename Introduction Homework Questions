@@ -1,0 +1,32 @@
+1. What is Cloud Computing?
+Ans: It is the delivery of different services through the Internet, including data storage, servers, databases, networking, and software.
+
+2. Deployment Model in Cloud Computing
+Ans: There are four types of deployment models and they are Public, Private, Community and Hybrid.
+
+3. Service model in cloud
+Ans: The three most popular cloud service models are software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS).
+Saas - Here all the work is done by cloud and as compared to the other two services its less costly. Example: Pubg, Microsoft Office.
+Paas - Little work is done by us and maximum is done by cloud. Example:facebook
+Iaas - 
+Baas - ?
+
+4. Architecture of Cloud Computing
+Ans: The cloud architecture is divided into 2 parts: Frontend and Backend.
+Frontend of the cloud architecture refers to the client side of cloud computing system.
+Means it contains all the user interfaces and applications which are used by the client to access the cloud computing services/resources.
+Backend refers to the cloud itself which is used by the service provider.
+Application -
+Service -
+Runtime Cloud -
+Storage -
+Infrastructure -
+Management -
+Security -
+Internet -
+Database -
+Networking - To communicate with other users?
+Analytics -
+
+5. AWS Global Infrastructure count
+Ans: The AWS Global Infrastructure consists of multiple geographical locations which are called Regions. 
