@@ -8,8 +8,8 @@ Ans: There are four types of deployment models and they are Public, Private, Com
 Ans: The three most popular cloud service models are software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS).
 Saas - Here all the work is done by cloud and as compared to the other two services its less costly. Example: Pubg, Microsoft Office.
 Paas - Little work is done by us and maximum is done by cloud. Example:facebook
-Iaas - 
-Baas - ?
+Iaas - Half is managed by us and rest by Cloud. Example:EC2
+Baas - Backup as a service
 
 4. Architecture of Cloud Computing
 Ans: The cloud architecture is divided into 2 parts: Frontend and Backend.
@@ -30,3 +30,11 @@ Analytics -
 
 5. AWS Global Infrastructure count
 Ans: The AWS Global Infrastructure consists of multiple geographical locations which are called Regions. 
+The AWS Cloud spans 102 Availability Zones within 32 geographic regions around the world.
+
+6. Why do we use region?
+Ans: To reduce latency/time because data reaches the users more quickly, and it is a best practice to choose a region that is geographically close to users.
+
+7. What is service and what are resources?
+Ans: Service means which is used to build, manage and monitor web pages?
+Resources are tools by which a user can accomplish tasks (resources are seen on the left side of the screen).
