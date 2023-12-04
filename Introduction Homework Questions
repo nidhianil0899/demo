@@ -36,5 +36,5 @@ The AWS Cloud spans 102 Availability Zones within 32 geographic regions around t
 Ans: To reduce latency/time because data reaches the users more quickly, and it is a best practice to choose a region that is geographically close to users.
 
 7. What is service and what are resources?
-Ans: Service means which is used to build, manage and monitor web pages?
+Ans: Service means which is used to build, manage and monitor web pages? Services - IAM, S3
 Resources are tools by which a user can accomplish tasks (resources are seen on the left side of the screen).
