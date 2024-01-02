@@ -1,0 +1,49 @@
+1. How many resources do we have in IAM ?
+Ans: 3 - users, groups, and roles.
+
+2. Deployment model in IAM ?
+Ans: Public cloud, private cloud, and hybrid cloud. Infrastructure as a service (IaaS), Platform as a service (PaaS), Software as a service (SaaS).
+
+3. Identities in IAM ?
+Ans: IAM Users, IAM Groups, IAM Roles.
+
+4. What is an IAM User ?
+Ans:An IAM User is an entity created in AWS that provides a way to interact with AWS resources.
+
+5. What is the IAM Group ?
+Ans: An IAM group is an identity that specifies a collection of IAM users. You can use groups to specify permissions for multiple users at a time.
+Groups make permissions easier to manage for large sets of users.
+
+6. What is the IAM Policy ?
+Ans:IAM policies defines permission
+
+7. What is the IAM Role ?
+Ans: A role is a set of permissions that grant access to actions and resources in AWS. These permissions are attached to the role, not to an IAM User or a group.
+A role is not uniquely associated with a single person; it can be used by anyone who needs it.
+A role does not have long term security credential, i.e., password or security key.
+Instead, if the user uses a role, temporarily security credentials are created and provided to the user.
+
+8. Where do we attach Identity Based Policy?
+Ans: Identity-based policies are attached to an IAM user, group, or role. These policies let you specify what that identity can do (its permissions).
+
+9. Where do we attach Resource Based Policy ?
+Ans: Resource-based policies are attached to a resource.
+
+10. Can we be able to create Policy via json code ?
+Ans:  You can type or paste policies in JSON by choosing the JSON option.
+
+11. If one user has created it by default, which permission has been assigned to that user ?
+Ans: By default, a new IAM user has no permissions to do anything. They are not authorized to perform any AWS operations or to access any AWS resources.
+
+12. What is dominator policy ?
+Ans: The Policy which has more power is a dominator policy.
+
+13. What is ARN ? What are the fields in ARN ?
+Ans: ARN uniquely identify AWS resources. 
+arn:partition:service:region:account-id:resource-id OR arn:partition:service:region:account-id:resource-type:resource-id
+
+14. How many types of ARN Partition ?
+Ans: aws - AWS Regions. aws-cn - China Regions. aws-us-gov - AWS GovCloud (US) Regions.
+
+15. What are Tags ?
+Ans: Tag is a label consisting of a user-defined key and value. Tags can help you manage, identify, organize, search for, and filter resources.
