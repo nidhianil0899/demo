@@ -1,0 +1,35 @@
+1. Difference between Block storage & Object Storage ?
+Ans: Block storage will take any file apart into individual data blocks. 
+It stores the blocks like data's separated pieces. All data's pieces contain the distinct address. Hence it does not require being stored within any file structure.
+Object storage will take data's each piece and makes it as any object. Data will be stored in the isolated storehouses. It is bundled with related metadata and a specific identifier.
+
+2. Difference between static website & dynamic website ?
+Ans: On a static website, individual webpages include static content. They might also contain client-side scripts. By contrast, a dynamic website relies on server-side processing.
+
+3. What are the naming rules ?
+Ans: Be unique within the chosen AWS Region and Availability Zone.
+Be no more than 3–63 characters long, including the suffix.
+Consists only of lowercase letters, numbers and hyphens (-).
+Begin and end with a letter or number.
+Must include the following suffix: -- azid --x-s3 .
+
+4. What is the major resource of S3 Bucket ?
+Ans:
+
+5. Why do we need to host static websites instead of dynamic websites ?
+Ans:
+
+6.
+Ans:
+
+7.
+Ans:
+
+8.
+Ans:
+
+9.
+Ans:
+
+10.
+Ans:
