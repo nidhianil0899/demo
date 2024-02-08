@@ -14,19 +14,36 @@ Begin and end with a letter or number.
 Cannot be formatted as an IP address (e.g., 192.168.0.1).
 
 4. What is the major resource of S3 Bucket ?
-Ans:
+Ans:The major resource of an S3 bucket is Simple Storage Service, it provide scalable object storage for various types of data, such as images, videos, documents, backups
+and application data.
 
 5. Why do we need to host static websites instead of dynamic websites ?
-Ans:
+Ans: Advantages over hosting dynamic websites are as follows:-
+Cost-effectiveness: Static websites typically require fewer resources to host compared to dynamic websites.
+Simplicity: Static websites are simpler to set up and maintain compared to dynamic websites. 
+Performance: Static websites served through a CDN like CloudFront benefit from edge caching, which helps reduce latency and improve performance for users accessing
+the website from different geographic locations.
 
-6.
-Ans:
+6. What is versioning & Why do we need versioning ?
+Ans: Versioning in AWS refers to the feature provided by services like Amazon S3, which allows you to keep multiple versions of an object 
+(such as files or data) in the same bucket.
+When versioning is enabled for an S3 bucket, every time you upload, copy, or delete an object, a new version of that object is created instead of overwriting the existing version.
+Data protection and recovery: Versioning helps protect your data from accidental deletion or overwrites.
+Immutable storage/ Unchanging storage: With versioning enabled, object versions in S3 are immutable/unchangable by default.
+Rollbacks and experimentation: Versioning enables you to experiment with changes to objects without the risk of permanently altering or losing data. 
 
-7.
-Ans:
+7. What are the objects and types of objects that we are uploading into the S3 Bucket ?
+Ans: An object is a fundamental storage unit that contains data and metadata.
+When you upload data to an S3 bucket, you are essentially uploading objects.
+Some common types of objects that are uploaded into S3 buckets in AWS:
+Files:  Files can include documents, images, videos, audio files, archives, logs, configuration files, etc. 
+HTML Pages, Binary Data,Database Backups,Log Files
+Machine Images: Images of virtual machines or servers (e.g., Amazon Machine Images - AMIs) 
+can be uploaded as objects to S3 for creating EC2 instances or for sharing with other AWS accounts.
 
-8.
-Ans:
+8. Why is MFA Delete important in S3 Bucket object level ?
+Ans: Prevention of Accidental Deletion: MFA Delete helps prevent accidental deletion of objects by requiring an additional authentication factor.
+
 
 9.
 Ans:
