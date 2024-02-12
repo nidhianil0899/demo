@@ -43,10 +43,80 @@ can be uploaded as objects to S3 for creating EC2 instances or for sharing with 
 
 8. Why is MFA Delete important in S3 Bucket object level ?
 Ans: Prevention of Accidental Deletion: MFA Delete helps prevent accidental deletion of objects by requiring an additional authentication factor.
+Enhanced Security, Disaster Recovery and Backup
+
+9. What is S3 Multipart upload ?
+Ans: S3 Multipart Upload is a feature provided by Amazon S3 (Simple Storage Service) that allows you to upload large objects in parts, 
+or chunks, instead of uploading the entire object in a single request. 
+This feature is particularly useful for uploading very large files (typically those larger than 100 MB) 
+or in situations where network instability or interruptions may occur during the upload process.
+
+10. What are the storage classes in Amazon S3 ?
+Ans: Standard: Amazon S3 Standard is the default storage class, offering high durability, availability, and performance for frequently accessed data.
+It is designed for use cases where data needs to be readily accessible with low latency.
+Standard-IA (Infrequent Access): Amazon S3 Standard-IA is designed for data that is accessed less frequently but requires rapid access when needed.
+It offers the same performance and durability as Amazon S3 Standard but at a lower storage price and a higher retrieval fee.
+One Zone-IA (Infrequent Access): One Zone-IA is similar to Standard-IA but stores data in a single Availability Zone instead of replicating it across multiple Availability Zones within a region.
+Intelligent-Tiering: Intelligent-Tiering is a storage class that automatically moves objects between two access tiers: frequent access and infrequent access. 
+It is designed to optimize storage costs by automatically selecting the appropriate tier based on usage patterns.
+Glacier: Glacier is a low-cost archival storage class for data that is accessed infrequently and can tolerate retrieval times of several hours.
+It offers significantly lower storage costs compared to other storage classes but incurs additional retrieval fees and longer retrieval times.
+Glacier Deep Archive: Glacier Deep Archive is the lowest-cost storage class offered by Amazon S3, designed for long-term retention of data that is accessed very rarely,
+with retrieval times of up to 12 hours. 
+S3 Outposts: S3 Outposts storage classes allow you to store and retrieve data on-premises using AWS Outposts, extending the benefits of Amazon S3 storage classes to your on-premises environment.
+
+11. What is ACL ?
+Ans: ACL stands for Access Control List. 
+An ACL is a set of rules that define permissions granted to users, groups, or other entities for accessing and performing operations on AWS resources such as S3 buckets and objects. 
+These permissions can include read, write, delete, and list operations, among others.
+In Amazon S3, ACLs can be applied at both the bucket level and the object level. There are three types of ACLs in Amazon S3:
+Bucket ACLs
+Object ACLs
+Bucket Policies
+
+12. Why do we need ACL ?
+Ans: Security: ACLs allow you to control who has access to your resources and what actions they can perform. 
+You can limit access to only authorized users or applications, reducing the risk of unauthorized access and data breaches.
+Data Privacy: ACLs help protect sensitive or confidential data by restricting access to only those individuals or 
+entities that need it to perform their job responsibilities.
+Resource Management: ACLs enable organizations to manage resources effectively by defining access permissions based on roles, responsibilities,
+or project requirements.
+Customization: ACLs provide flexibility to customize access permissions based on specific use cases or business requirements. 
+Auditing and Accountability: ACLs facilitate auditing and accountability by allowing organizations to track access to resources and monitor user activity. 
+
+13. What is a Life cycle policy ? Why do we need to use the life cycle rule ?
+Ans: A lifecycle policy, also known as a lifecycle rule,is a feature provided by Amazon S3  that allows you to define rules to automatically manage the lifecycle of objects stored in S3 buckets.
+These rules specify actions to be taken on objects based on predefined criteria such as their age, size, or storage class.
+The primary purpose of using a lifecycle policy is to automate the management of object storage and reduce storage costs by moving or deleting objects as they age or become less frequently accessed.
+Cost Optimization: Lifecycle policies help optimize storage costs by automatically transitioning objects to lower-cost storage classes or deleting them when they are no longer needed. 
+Performance: Lifecycle policies can improve performance by moving objects to storage classes that are optimized for specific access patterns. 
+Data Security: Lifecycle policies can help improve data security by automatically deleting or moving sensitive or outdated data to secure storage classes or archival solutions. 
+
+14. How can we make our bucket public ?
+Ans: To make an Amazon S3 bucket public and allow public access to its contents, you need to configure the bucket's permissions appropriately. 
+Making a bucket public means that anyone on the internet can access the objects stored in the bucket without authentication.
 
 
-9.
+15.
 Ans:
 
-10.
+16.
+Ans:
+
+17.
+Ans:
+
+18.
+Ans:
+
+19.
+Ans:
+
+20.
+Ans:
+
+21.
+Ans:
+
+22.
 Ans:
